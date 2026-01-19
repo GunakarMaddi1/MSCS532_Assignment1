@@ -1,3 +1,18 @@
+"""
+Approach:
+Starting from the second element, each element is compared 
+with the elements in the sorted part of the array(left part is sorted, Righy is unsorted)
+and it is placed at its correct position by moving the smaller elements to the right.
+
+This is continued untill the entire array is sorted(Decreasing Order).
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+
+
+"""
+
+
 from typing import List
 
 class Solution:    
